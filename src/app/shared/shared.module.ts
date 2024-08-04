@@ -5,6 +5,7 @@ import { share } from 'rxjs';
 import { TargetasComponent } from './targetas/targetas.component';
 import { SearchBoxComponent } from './search-box/search-box.component';
 import { CalendarComponent } from './calendar/calendar.component';
+import { SharedLabelComponent } from './shared-label/shared-label.component';
 
 
 
@@ -13,7 +14,8 @@ import { CalendarComponent } from './calendar/calendar.component';
     SharedSlideBarComponent,
     TargetasComponent,
     SearchBoxComponent,
-    CalendarComponent
+    CalendarComponent,
+    SharedLabelComponent
   ],
 
   exports:[
@@ -21,7 +23,8 @@ import { CalendarComponent } from './calendar/calendar.component';
     SharedSlideBarComponent,
     TargetasComponent,
     SearchBoxComponent,
-    CalendarComponent
+    CalendarComponent,
+    SharedLabelComponent
 
   ],
 
